@@ -1,0 +1,10 @@
+{"at":0,"kind":"program","record":{"program":"P","branch":"full","base":"v0","splices":[10,20,30],"tied":[]}}
+{"at":1,"kind":"edit","record":{"id":"look","program":"P","branch":"full","base":"v0","span":[10,20],"target":"tone","change":"warm"}}
+{"at":2,"kind":"decide","record":{"program":"P","accept":["look"],"reject":[]}}
+{"at":3,"kind":"cast","record":{"name":"A","program":"P","branch":"full"}}
+{"at":3,"kind":"cast","record":{"name":"B","program":"P","branch":"full"}}
+{"at":4,"kind":"applied","record":{"name":"A","program":"P","branch":"full","revision":1,"media":11}}
+{"at":5,"kind":"retract","record":{"program":"P","branch":"full","revision":1}}
+{"at":6,"kind":"resume","record":{"name":"B","program":"P","branch":"full","revision":0,"media":8}}
+{"at":7,"kind":"resume","record":{"name":"A","program":"P","branch":"full","revision":1,"media":16}}
+{"at":8,"kind":"inspect","record":{"cast":"A"}}

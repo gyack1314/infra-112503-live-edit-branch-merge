@@ -1,0 +1,8 @@
+{"at":0,"kind":"program","record":{"program":"P","branch":"full","base":"v0","splices":[20,40,60],"tied":[["actor-mask","actor-caption"]]}}
+{"at":1,"kind":"edit","record":{"id":"a","program":"P","branch":"full","base":"v0","span":[20,40],"target":"actor-mask","change":"new-mask"}}
+{"at":2,"kind":"edit","record":{"id":"b","program":"P","branch":"full","base":"v0","span":[30,39],"target":"actor-caption","change":"new-caption"}}
+{"at":2,"kind":"edit","record":{"id":"c","program":"P","branch":"full","base":"v0","span":[40,60],"target":"actor-caption","change":"later"}}
+{"at":3,"kind":"inspect","record":{"edit":"b"}}
+{"at":4,"kind":"decide","record":{"program":"P","accept":["a"],"reject":["b"]}}
+{"at":5,"kind":"cast","record":{"name":"partner","program":"P","branch":"full"}}
+{"at":6,"kind":"inspect","record":{"edit":"c"}}
