@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edit-channel"
+version = "1.0.0"
+description = "多人共用节目时间线的 Python 编辑消息通道：分支合流、冲突决策、转播领取确认与重连"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["edit_channel"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
